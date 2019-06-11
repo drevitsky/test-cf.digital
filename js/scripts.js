@@ -6,7 +6,7 @@ window.onload = function () {
   a.forEach(function(item,i,a){
     let index = i;
     item.addEventListener("mouseover", function(e) {
-      // console.log(item);
+      
       if (item.classList.contains('mouseout')){
           item.classList.remove('mouseout');
       }
@@ -27,16 +27,12 @@ window.onload = function () {
     });
 
     item.addEventListener("click", function(e) {
-      // const target = e.target;
-      //    console.log(target.classList);
-
-         // console.log(item.parentElement);
+      
         a.forEach(function(item,i,a){
             if(i!=index) {
               item.classList.remove('active');
             }
          });
-
 
          item.classList.toggle('active');
 
@@ -45,11 +41,8 @@ window.onload = function () {
               item.classList.remove('active');
             }
          });
-         
-
         
-         item.nextSibling.nextSibling.classList.toggle('active');
-         // item.parentElement.classList.toggle('active');
+         item.nextSibling.nextSibling.classList.toggle('active');     
 
     })
 

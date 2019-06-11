@@ -125,8 +125,6 @@ body {
 
 }
 
-
-
 .item-img:before {
 	content: '';
 	position: absolute;
@@ -145,8 +143,6 @@ body {
   	height: 100%;
   	transition: transform ease-out 1s, height ease 0.5s;
 }
-
-
 
 .item-img img {
 	width: 100%;
@@ -254,7 +250,6 @@ body {
 	transition: all 1s ease ;
 	-ms-text-align-last: auto;
 	text-align: left;
-	outline: 1px solid red;
 }
 .item-content .item--title {
 	font:  bold 1.5rem/1.6 Montserrat-Regular;
@@ -283,8 +278,6 @@ body {
 	}
 	
 }
-
-
 
 footer {
 	background-color: #000;	
@@ -372,8 +365,7 @@ footer {
 	list-style-type: none;
 	justify-content: center;
 	padding: 0;
-	margin: 0;
-	
+	margin: 0;	
 }
 
 .social_list__item:not(:last-child) {
@@ -408,8 +400,6 @@ svg {
 svg:hover {
    fill: #d64f61;
 }
-
-
 
 @media screen and (max-width: 576px) {
 	.row {
